@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+:root {
+    --cor01: #c5ebd6;
+    --cor02: #83e1ad;
+    --cor03: #3ddc84;
+    --cor04: #2fa866;
+    --cor05: #1a5c37;
+    --cor06: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue',cursive;
+    --fonte-android: 'Android', cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor01);
+
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+header p {
+    margin: 10px auto;
+    text-align: center;
+}
+header h1 {
+    text-shadow:1px 1px 5px #175031;
+    font-family: var(--fonte-destaque);
+    color: white;
+    font-weight: lighter;
+    font-size: 3em;
+}
+nav {
+    background-color: var(--cor05);
+    text-align: left;
+    padding: 5px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 8px;
+    padding: 5px;
+}
+nav a:hover {
+    border-radius: 5px;
+    background-color: var(--cor06);
+}
+main {
+    min-width: 300px;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px var(--cor06);
+    text-align: justify;
+}
+main h1 {
+    font-family: var(--fonte-android);
+    color: var(--cor05);
+    margin:16px 0px;
+}
+main h2 {
+    margin:16px 0px;
+    font-family: var(--fonte-android);
+    color: var(--cor05);
+    background-image: linear-gradient(to left, white, var(--cor01));
+}
+main strong {
+    color: var(--cor06);
+}
+main img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+img#teendroid {
+    width: 50%;
+}
+a {
+    text-decoration: none;
+    color: var(--cor06);
+    font-weight: bolder;
+}
+footer {
+    background-color: var(--cor06);
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+div#extra {
+    box-shadow: 0px 0px 5px var(--cor05);
+    border-radius: 10px;
+    background-color: var(--cor01);
+    margin: 16px 0px;
+}
+div#extra h3 {
+    background-color: var(--cor06);
+    color: white;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 10px 10px 0 0;
+}
+div#extra p {
+    margin: 10px;
+}
+div#extra ul {
+    margin: 10px;
+    list-style-position: inside;
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+}

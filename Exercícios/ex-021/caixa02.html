@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightslategray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 20px;
+        }
+        header > h1 {
+            color: rgb(16, 42, 90);
+            margin-left: 30px;
+        }
+        nav {
+            background-color: royalblue;
+            color: black;
+            padding: 5px;
+            border: 2px solid black;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.514);
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        main {
+            background-color: white;
+            margin: 20px;
+            padding: 10px;
+        }
+        main > section#assuntos {
+            background-color: royalblue;
+            color: white;
+            padding: 2px;
+            border: 2px solid black;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.514);
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            margin-top: 10px;
+            text-align: justify;
+        }
+        article > h2 {
+            margin: 0;
+        }
+         aside#vinicius  {
+            text-align: right;
+            padding-right: 10px;
+        }
+        aside#vinicius > p {
+            text-align: right;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 2px;
+        }
+        footer > p {
+            margin: 0px;
+            text-align: center;
+        }
+        div#bola {
+            background-color: white;
+            margin: 10px auto;
+            height: 600px;
+            width: 600px;
+            border-radius: 50%;
+        }
+        div#bola > p {
+            padding-top: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Notícias Esportes Tecnologia
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa veritatis provident laborum odio alias corrupti dolorem quia tempore magni accusantium! Porro excepturi culpa veniam eos qui suscipit blanditiis dolorum ratione!</p>
+                <aside id="vinicius">
+                    <p>Artigo escrito por Vinícius Leví</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Curso em Vídeo</p>
+    </footer>
+    <div id="bola">
+        <p>Circle</p>
+    </div>
+</body>
+</html>
