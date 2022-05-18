@@ -46,11 +46,24 @@ section {
 section.imagem {
     background-color: rgb(85, 85, 85);
     color: white;
+    background-size: cover;
+    box-shadow: inset 0px 6px 15px 0px rgba(0, 0, 0, 0.664);
+    background-attachment: fixed;
+    background-position: right;
 }
 section.imagem p {
-    width: 600px;
+    width: 44vw;
     background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 4px;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
 }
+#img1 {
+    background-image: url(../imagens/background001.jpg);
+}
+ #img2 {
+    background-image: url(../imagens/background002.jpg);
+ }
 
 /* footer */
 
